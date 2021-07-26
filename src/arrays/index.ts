@@ -28,11 +28,8 @@ import { removeLastPosition } from "./implementations/remove-last-position";
 
 // console.log(arrayToRemoveFirstPosition);
 
-let arrayToSplice = [0, 1, 2, 3, 4, 5];
-// console.log(arrayToSplice.splice(1, 2, 4, 3));
+// let arrayToSplice = [0, 1, 2, 3, 4, 5];
 
-customSplice(arrayToSplice, 2, 2, 3, 4, 5, 6, 7, 8);
-
-// arrayToSplice.splice(2, 2, 3, 4, 6, 7);
+// customSplice(arrayToSplice, -3, 2, 49, 50, 51, 52);
 
 // console.log(arrayToSplice);

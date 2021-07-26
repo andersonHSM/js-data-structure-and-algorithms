@@ -32,16 +32,17 @@ const insertFromGivenIndex = (
 
   if (shouldReindex) {
     const emptySlots = currentIndex - index;
-    const slotsToRelease = elementsToInsert.length - emptySlots;
+    let slotsToRelease = elementsToInsert.length - emptySlots;
 
-    let arrayIndexToModify = array.length - 1;
-
-    for (let i = slotsToRelease; i > 0; i--) {
-      array[i + 1] = array[i];
+    while (slotsToRelease > 0) {
+      for (let i = array.length; i > currentIndex; i--) {
+        array[i] = array[i - 1];
+      }
+      slotsToRelease--;
     }
   }
 
-  console.log(array);
+  currentIndex = index;
 
   for (let i = 0; i < elementsToInsert.length; i++) {
     array[currentIndex] = elementsToInsert[i];
