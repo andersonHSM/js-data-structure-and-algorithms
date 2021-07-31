@@ -1,6 +1,6 @@
 import { removeLastPosition } from "./remove-last-position";
 
-describe("Insert last position tests", () => {
+describe("Remove last position tests", () => {
   it(`should remove one item at array's last position`, () => {
     const array = [1, 2, 3];
 
