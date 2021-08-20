@@ -1,0 +1,33 @@
+{
+  "name": "js-ts-data-structure-and-algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "watch:arrays": "nodemon ./src/arrays/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andersonHSM/js-data-structure-and-algorithms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andersonHSM/js-data-structure-and-algorithms/issues"
+  },
+  "homepage": "https://github.com/andersonHSM/js-data-structure-and-algorithms#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "@babel/preset-typescript": "^7.14.5",
+    "@types/jest": "^26.0.24",
+    "babel-jest": "^27.0.6",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.4",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  }
+}
